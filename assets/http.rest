@@ -1,0 +1,31 @@
+### CREATE NEW CUSTOMER
+POST http://localhost:3001/customers
+Content-Type: application/json
+
+{
+    "email": "email@ihashem.com",
+    "name": "Mohammed Hashem",
+    "active": true
+}
+
+### GET ALL CUSTOMERS
+GET http://localhost:3001/customers
+
+### GET CUSTOMER BY ID 
+GET http://localhost:3001/customers/1
+
+### UPDATE CUSTOMER BY ID
+PUT http://localhost:3001/customers/1
+Content-Type: application/json
+
+{
+    "email": "newemail@ihashem.com",
+    "name": "Mohamed Hashem",
+    "active": false
+}
+
+### DELETE CUSTOMER BY ID 
+DELETE http://localhost:3001/customers/2
+
+### DELETE ALL CUSTOMERS
+DELETE http://localhost:3001/customers
