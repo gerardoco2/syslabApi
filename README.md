@@ -1,16 +1,16 @@
 # Overview
 
-This Application is a Rest Apis for creating, retrieving, updating & deleting Customers.
+This Application is a Rest Apis for creating, retrieving, updating & deleting todos los objetos necesarios para el sistema syslab.
 
 # Getting Started
 
 #### clone the project
 
 ```
-git clone https://github.com/iMohammedHashem/Nodejs-Express-MySQL-Rest-API.git
+O contactar a Gerardo Colina (gerardocolina@gmail.com) o A Jazmin Rosales 
 ```
 
-#### Add table with `Customers.sql` file to your database
+#### Add table with `syslab.sql` file to your database
 
 #### Insall dependencies
 
