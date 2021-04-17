@@ -34,12 +34,12 @@ node server.js
 
 | Methods | Route Path   | Actions                   |
 | ------- | ------------ | ------------------------- |
-| GET     | /customers   | Get all Customers         |
-| GET     | /customers/1 | Get Customer with id 1    |
-| POST    | /customers   | Add new Customer          |
-| PUT     | /customers/1 | Update Customer with id 1 |
-| DELETE  | /customers/1 | Remove Customer with id 1 |
-| DELETE  | /customers   | Remove all Customers      |
+| GET     | /analistas   | Obtiene todos los analistas |
+| GET     | /analistas/1 | Obtiene analista con id 1   |
+| POST    | /analistas   | Add new Analista          |
+| PUT     | /analistas/1 | Update Analista with id 1 |
+| DELETE  | /analistas/1 | Remove Analista with id 1 |
+| DELETE  | /analistas   | Remove all analistas      |
 
 # TOOLS
 
